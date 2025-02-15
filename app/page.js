@@ -6,7 +6,7 @@ import { Envelope, Github, Telephone, MortarboardFill, Stars, Translate, CodeSla
 
 export default function Home() {
   return (
-    <div className="max-w-[100vw] flex flex-col">
+    <div className="max-w-[70vw] flex flex-col">
       <div className="bg-white flex justify-center p-5 items-center gap-9 bg-zinc-900">
         {/* <div className="flex flex-col items-center">
           <Image src={'/pierre.jpg'} width={150} height={150} alt="personal picture" className="ring-2 ring-violet-600 ring-offset-4 ring-offset-zinc-900 rounded-full aspect-square object-cover"/>
