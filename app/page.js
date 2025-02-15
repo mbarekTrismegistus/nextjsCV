@@ -16,17 +16,17 @@ export default function Home() {
           <p className="font-bold text-5xl bg-gradient-to-r from-violet-500 to-violet-800 inline-block text-transparent bg-clip-text"><span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-400">A</span> Full Stack Web <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-400">Developer</span></p>
           <div className="pt-4 flex gap-3 justify-center flex-wrap items-center">
             <div className="flex  items-center gap-2">
-              <Github size={30}/>
+              <Github size={30} color="#e4e4e7"/>
               <p className="text-zinc-400 text-sm">/mbarekTrismegistus</p>
               <Divider orientation="vertical" className="bg-zinc-400 min-h-[20px]"/>
             </div>
             <div className="flex items-center gap-2">
-              <Envelope size={30} className="p-[4px]"/>
+              <Envelope size={30} color="#e4e4e7" className="p-[4px]"/>
               <p className="text-zinc-400 text-sm">mbarek.talbi666@gmail.com</p>
               <Divider orientation="vertical" className="bg-zinc-400 min-h-[20px]"/>
             </div>
             <div className="flex items-center gap-2">
-              <Telephone size={30} className="p-[4px]"/>
+              <Telephone size={30} color="#e4e4e7" className="p-[4px]"/>
               <p className="text-zinc-400 text-sm">+2126 96 428456</p>
             </div>
           </div>
