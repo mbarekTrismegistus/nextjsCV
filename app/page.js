@@ -62,9 +62,9 @@ export default function Home() {
               <ul>
                 <li>
                   <div className="py-2">
-                    <p className="font-bold text-violet-800">2024-present</p>
-                    <p className="font-bold">Ecole superieur de technologie: Sidi Bennour</p>
-                    <p className="">ingenierie de system informatique et technologie web</p>
+                    <p className="font-bold text-violet-800">2022</p>
+                    <p className="font-bold">Lycee Abdelkader Nkhcha, Ksar El Kebir</p>
+                    <p className="">baccalauréat sciences physiques</p>
                   </div>
                 </li>
               </ul>
