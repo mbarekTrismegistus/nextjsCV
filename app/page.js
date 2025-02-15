@@ -8,7 +8,7 @@ export default function Home() {
     <div className="max-w-[60vw] flex flex-col">
       <div className="bg-white flex justify-center p-5 items-center gap-9 bg-zinc-900">
         <div className="flex flex-col items-center">
-          <Image src={'/pierre.jpg'} width={150} height={150} alt="personal picture" className="ring-4 ring-violet-600 ring-offset-4 ring-offset-zinc-900 rounded-full aspect-square object-cover"/>
+          <Image src={'/pierre.jpg'} width={150} height={150} alt="personal picture" className="ring-2 ring-violet-600 ring-offset-4 ring-offset-zinc-900 rounded-full aspect-square object-cover"/>
         </div>
         <div className="flex flex-col">
           <p className="text-3xl font-bold bg-gradient-to-b from-white to-zinc-400 inline-block text-transparent bg-clip-text">M'barek ETTALEBY</p>
@@ -37,7 +37,7 @@ export default function Home() {
             <MortarboardFill size={30} color="#252525"/>
             <p className="text-4xl font-bold bg-gradient-to-b from-zinc-700 to-zinc-900 inline-block text-transparent bg-clip-text">Formation</p>
           </div>
-          <div className="flex">
+          <div className="flex px-8">
             <div className="basis-2/4 px-3 text-zinc-900">
               <ul>
                 <li>
@@ -75,27 +75,35 @@ export default function Home() {
             <MortarboardFill size={30} color="#252525"/>
             <p className="text-4xl font-bold bg-gradient-to-b from-zinc-700 to-zinc-900 inline-block text-transparent bg-clip-text">Conaissances et compétences</p>
           </div>
-          <div className="flex text-zinc-900 px-5">
+          <div className="flex flex-wrap text-zinc-900 px-8 ">
             <div className="basis-2/4">
               
               <div className="px-3 py-2">
                 <p className="font-bold text-violet-800">Languages de Programmation :</p>
                 <p className="font-bold ps-3">Elixir - JavaScript/Typescript - Java - Python - PHP</p>
               </div>
+              <Divider/>
+
               <div className="px-3 py-2">
                 <p className="font-bold text-violet-800">Technologies Web :</p>
                 <p className="font-bold ps-3">NextJS - Phoenix Framework - ReactJS - AngularJS - Laravel - NodeJS - Bun - TailwindCSS - ExpressJS - Spring Boot</p>
               </div>
+              <Divider/>
+
               <div className="px-3 py-2">
                 <p className="font-bold text-violet-800">Autre</p>
                 <p className="font-bold ps-3">Git - Administration Linux - securite web/reseau - AWS/Oracle cloud - DevOps - Cloud Native</p>
               </div>
+              <Divider/>
+
             </div>
             <div className="basis-2/4">
               <div className="px-3 py-2">
                 <p className="font-bold text-violet-800">Méthode d'analyse et de modelisation :</p>
                 <p className="font-bold ps-3">Merise, UML</p>
               </div>
+              <Divider/>
+
               <div className="px-3 py-2">
                 <p className="font-bold text-violet-800">Système de gestion de base de données :</p>
                 <p className="font-bold ps-3">PostgreSQL - Mysql/MariaDB - MongoDB - MSSQL</p>
@@ -103,6 +111,62 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="py-5 px-3 bg-white">
+          <div className="flex items-center gap-3">
+            <MortarboardFill size={30} color="#252525"/>
+            <p className="text-4xl font-bold bg-gradient-to-b from-zinc-700 to-zinc-900 inline-block text-transparent bg-clip-text">Projets</p>
+          </div>
+          <div className="flex flex-wrap text-zinc-900 px-8 ">
+            <div className="basis-2/4">
+                <div className="px-3 py-2">
+                  <p className="font-bold text-violet-800">2025 Projet personnel</p>
+                  <p className="font-bold ps-3">Site de L'échec online</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>Elixir - Phoenix Framework - PostgreSQL - Git</p>
+                </div>
+                <Divider/>
+
+                <div className="px-3 py-2">
+                  <p className="font-bold text-violet-800">2025 Projet personnel</p>
+                  <p className="font-bold ps-3">Site de L'échec online</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>Elixir - Phoenix Framework - PostgreSQL - Git</p>
+                </div>
+                <Divider/>
+                
+            </div>
+            <div className="basis-2/4">
+                <div className="px-3 py-2">
+                  <p className="font-bold text-violet-800">2025 Projet personnel</p>
+                  <p className="font-bold ps-3">Site de L'échec online</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>Elixir - Phoenix Framework - TailwindCSS - PostgreSQL - Git</p>
+                </div>
+                <Divider/>
+
+                <div className="px-3 py-2">
+                  <p className="font-bold text-violet-800">2025 Projet personnel</p>
+                  <p className="font-bold ps-3">web app pour partager et de streaming des cours online</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>AngularJS - Tanstack Query - TailwindCSS - PostgreSQL - Git</p>
+                </div>
+                <Divider/>
+                
+            </div>
+            <div className="basis-2/4">
+                <div className="px-3 py-2">
+                  <p className="font-bold text-violet-800">2025 Projet personnel</p>
+                  <p className="font-bold ps-3">Site de L'échec online</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>Elixir - Phoenix Framework - PostgreSQL - Git</p>
+                </div>
+                <Divider/>
+
+                <div className="px-3 py-2">
+                  <p className="font-bold text-violet-800">2025 Projet </p>
+                  <p className="font-bold ps-3">Site de L'échec online</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>Elixir - Phoenix Framework - PostgreSQL - Git</p>
+                </div>
+                <Divider/>
+                
+            </div>
+          </div>
       </div>
     </div>
   );
