@@ -1,6 +1,7 @@
 import { Divider } from "@heroui/divider";
+import { Progress } from "@heroui/progress";
 import Image from "next/image";
-import { Envelope, Github, Telephone, MortarboardFill } from "react-bootstrap-icons";
+import { Envelope, Github, Telephone, MortarboardFill, Stars, Translate, CodeSlash, BriefcaseFill } from "react-bootstrap-icons";
 
 
 export default function Home() {
@@ -72,7 +73,7 @@ export default function Home() {
         </div>
         <div className="py-5 px-3 bg-white">
           <div className="flex items-center gap-3">
-            <MortarboardFill size={30} color="#252525"/>
+            <CodeSlash size={30} color="#252525"/>
             <p className="text-4xl font-bold bg-gradient-to-b from-zinc-700 to-zinc-900 inline-block text-transparent bg-clip-text">Conaissances et compétences</p>
           </div>
           <div className="flex flex-wrap text-zinc-900 px-8 ">
@@ -114,7 +115,7 @@ export default function Home() {
       </div>
       <div className="py-5 px-3 bg-white">
           <div className="flex items-center gap-3">
-            <MortarboardFill size={30} color="#252525"/>
+            <BriefcaseFill size={30} color="#252525"/>
             <p className="text-4xl font-bold bg-gradient-to-b from-zinc-700 to-zinc-900 inline-block text-transparent bg-clip-text">Projets</p>
           </div>
           <div className="flex flex-wrap text-zinc-900 px-8 ">
@@ -128,45 +129,59 @@ export default function Home() {
 
                 <div className="px-3 py-2">
                   <p className="font-bold text-violet-800">2025 Projet personnel</p>
-                  <p className="font-bold ps-3">Site de L'échec online</p>
-                  <p className="ps-3"><span className="font-bold">Outils: </span>Elixir - Phoenix Framework - PostgreSQL - Git</p>
-                </div>
-                <Divider/>
-                
-            </div>
-            <div className="basis-2/4">
-                <div className="px-3 py-2">
-                  <p className="font-bold text-violet-800">2025 Projet personnel</p>
-                  <p className="font-bold ps-3">Site de L'échec online</p>
-                  <p className="ps-3"><span className="font-bold">Outils: </span>Elixir - Phoenix Framework - TailwindCSS - PostgreSQL - Git</p>
-                </div>
-                <Divider/>
-
-                <div className="px-3 py-2">
-                  <p className="font-bold text-violet-800">2025 Projet personnel</p>
                   <p className="font-bold ps-3">web app pour partager et de streaming des cours online</p>
-                  <p className="ps-3"><span className="font-bold">Outils: </span>AngularJS - Tanstack Query - TailwindCSS - PostgreSQL - Git</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>AngularJS - Tanstack Query - ExpressJS - TailwindCSS - PostgreSQL - Git - Vercel - Supabase</p>
                 </div>
                 <Divider/>
                 
             </div>
             <div className="basis-2/4">
                 <div className="px-3 py-2">
-                  <p className="font-bold text-violet-800">2025 Projet personnel</p>
-                  <p className="font-bold ps-3">Site de L'échec online</p>
-                  <p className="ps-3"><span className="font-bold">Outils: </span>Elixir - Phoenix Framework - PostgreSQL - Git</p>
+                  <p className="font-bold text-violet-800">2024 Projet personnel</p>
+                  <p className="font-bold ps-3">Site Web pour les Artists, parteger leur creation</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>NextJS 15 - ReactJS - Drizzle - NodeJS - TailwindCSS - PostgreSQL - Git - Vercel - Supabase</p>
                 </div>
                 <Divider/>
-
                 <div className="px-3 py-2">
-                  <p className="font-bold text-violet-800">2025 Projet </p>
-                  <p className="font-bold ps-3">Site de L'échec online</p>
-                  <p className="ps-3"><span className="font-bold">Outils: </span>Elixir - Phoenix Framework - PostgreSQL - Git</p>
+                  <p className="font-bold text-violet-800">2024 Projet De Stage</p>
+                  <p className="font-bold ps-3">Site Web pour gerer la communication par Email</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>NextJS 15 - ReactJS - Prisma - NodeJS - TailwindCSS - PostgreSQL - Git - Resend - Vercel - Supabase</p>
                 </div>
-                <Divider/>
+            </div>
+            <div className="basis-2/4">
+                <div className="px-3 py-2">
+                  <p className="font-bold text-violet-800">2024 Projet De synthese</p>
+                  <p className="font-bold ps-3">Forum de discussion</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>NextJS 13 - ReactJS - Prisma - NodeJS - TailwindCSS - PostgreSQL - Git - Vercel - Supabase</p>
+                </div>
                 
             </div>
           </div>
+      </div>
+      <div className="py-5 px-3 bg-white">
+          <div className="flex py-4 items-center gap-3">
+            <Translate size={30} color="#252525"/>
+            <p className="text-4xl font-bold bg-gradient-to-b from-zinc-700 to-zinc-900 inline-block text-transparent bg-clip-text">Langues</p>
+          </div>
+          <div className="flex gap-4 px-8 text-zinc-900">
+            <Progress value={85} color="secondary" className="" label="Anglais"/>
+            <Progress value={65} color="secondary" className="" label="Francais"/>
+          </div>
+          
+      </div>
+      <div className="py-5 px-3 bg-white">
+          <div className="flex py-4 items-center gap-3">
+            <Stars size={30} color="#252525"/>
+            <p className="text-4xl font-bold bg-gradient-to-b from-zinc-700 to-zinc-900 inline-block text-transparent bg-clip-text">Loisir</p>
+          </div>
+          <div className="flex flex-col gap-4 px-8 text-zinc-900">
+            <p className="font-bold text-xl">- jouer de la flûte</p>
+            <p className="font-bold text-xl">- jouer aux échecs</p>
+            <p className="font-bold text-xl">- Le dessin</p>
+            <p className="font-bold text-xl">- Lecture des livres historique</p>
+
+          </div>
+          
       </div>
     </div>
   );
