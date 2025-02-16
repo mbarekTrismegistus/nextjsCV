@@ -23,7 +23,7 @@ import { CiCirclePlus } from "react-icons/ci";
 
 
 
-export default function About() {
+export default function Skills() {
   return (
     <div className="text-zinc-200 pt-[15vh] px-8 text-start justify-self-start">
       <p className="flex items-center font-bold text-5xl gap-3 pb-4"><Stars size={40}/>Skill</p>
@@ -82,7 +82,7 @@ export default function About() {
             </div>
         </div>
       </div>
-      <Button as={Link} size="lg" variant="flat" className="bg-[#744e96]/30 text-white rounded-full my-5" href="/skills">Projects<ArrowRight/> </Button>
+      <Button as={Link} size="lg" variant="flat" className="bg-[#744e96]/30 text-white rounded-full my-5" href="/projects">Projects<ArrowRight/> </Button>
     </div>
   );
 }

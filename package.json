@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/avatar": "^2.2.7",
     "@heroui/button": "^2.2.10",
     "@heroui/divider": "^2.2.6",
     "@heroui/navbar": "^2.2.9",
