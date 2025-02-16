@@ -1,7 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Provider from "./provider";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@heroui/react";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Button} from "@heroui/react";
+import Link from "next/link";
 
 
 const geistSans = Geist({
@@ -30,33 +31,33 @@ export default function RootLayout({ children }) {
           >
             <Navbar className="dark w-[100vw] bg-transparent fixed" isBlurred>
         <NavbarBrand>
-          <p className="font-bold text-zinc-200">ACME</p>
+          <Link href="/" className="font-bold text-zinc-200">Mbarek ETTALEBY</Link>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" className="text-zinc-200" href="/about">
               About
             </Link>
           </NavbarItem>
-          <NavbarItem isActive>
-            <Link aria-current="page" href="#">
+          <NavbarItem >
+            <Link aria-current="page" className="text-zinc-200" href="/skills">
               Skills
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" className="text-zinc-200" href="/projects">
               Projects
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" className="text-zinc-200" href="/contact">
               Contact
             </Link>
           </NavbarItem>
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem>
-            <Button as={Link} color="primary" href="#" variant="flat">
+            <Button as={Link} color="primary" className="text-zinc-200" href="#" variant="flat">
               Contact
             </Button>
           </NavbarItem>
