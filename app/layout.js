@@ -57,13 +57,12 @@ export default function RootLayout({ children }) {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem>
-            <Button as={Link} color="primary" className="text-zinc-200" href="#" variant="flat">
-              Contact
+            <Button as={Link} color="primary" className="text-[#744e96] rounded-full bg-[#744e96]/30" href="cv" variant="flat">
+              Resume
             </Button>
           </NavbarItem>
         </NavbarContent>
         </Navbar>
-          {/* <div className="absolute blur-3xl opacity-[0.3] justify-self-center hero rounded-full w-[50vw] h-[100vh] z-[0]"></div> */}
           <Provider>
             {children}
           </Provider>
