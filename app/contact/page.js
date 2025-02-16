@@ -12,7 +12,7 @@ export default function Skills() {
       <p className="flex items-center font-bold text-5xl gap-3 pb-4"><ChatFill size={40}/>Contact Me</p>
       <div className="flex flex-col w-full gap-5 bg-zinc-900 rounded-lg border-1 border-zinc-800 p-5">
         <div className="flex items-center gap-5">
-            <Avatar className="w-20 h-20" name="me" isBordered/>
+            <Avatar src="/me.jpg" className="w-20 h-20" name="me" isBordered/>
             <div className="flex flex-col">
                 <p className="font-bold text-2xl">M'barek ETTALEBY</p>
                 <Link href={'mailto:mbarek.talbi666@gmail.com'}>
