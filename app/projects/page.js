@@ -34,7 +34,7 @@ export default function Skills() {
         <div className="flex flex-col basis-1/2 py-5 gap-4">
             <p className="font-bold text-3xl">Bros Email Sender</p>
             <p>
-                A website to manage communication via email made with nextjs and resend
+                A website to manage communication via email made with nextjs and resend, i made it during my internship with brosmedia
             </p>
             <Link className="font-bold hover:text-violet-600 flex items-center gap-4" href={'https://github.com/mbarekTrismegistus/NextEmailSender'}><Github size={20}/>Github repo</Link>
             
