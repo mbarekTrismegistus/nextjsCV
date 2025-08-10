@@ -8,9 +8,7 @@ export default function Home() {
   return (
     <div className="max-w-[70vw] home flex flex-col border-1 border-zinc-800 rounded-xl">
       <div className="bg-white flex justify-center p-5 items-center gap-9 bg-zinc-900">
-        {/* <div className="flex flex-col items-center">
-          <Image src={'/pierre.jpg'} width={150} height={150} alt="personal picture" className="ring-2 ring-violet-600 ring-offset-4 ring-offset-zinc-900 rounded-full aspect-square object-cover"/>
-        </div> */}
+
         <div className="flex flex-col text-center">
           <p className="text-4xl font-bold bg-gradient-to-b from-white to-zinc-400 inline-block text-transparent bg-clip-text">M'barek ETTALEBY</p>
           <p className="font-bold text-5xl bg-gradient-to-r from-violet-500 to-violet-800 inline-block text-transparent bg-clip-text"><span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-400">A</span> Full Stack Web <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-400">Developer</span></p>
@@ -27,7 +25,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2">
               <Telephone size={30} color="#e4e4e7" className="p-[4px]"/>
-              <p className="text-zinc-400 text-sm">+2126 96 428456</p>
+              <p className="text-zinc-400 text-sm">+2127 10 931642</p>
             </div>
           </div>
         </div>
@@ -43,7 +41,7 @@ export default function Home() {
               <ul>
                 <li>
                   <div className="py-2">
-                    <p className="font-bold text-violet-800">2024-present</p>
+                    <p className="font-bold text-violet-800">2024-2025</p>
                     <p className="font-bold">Ecole superieur de technologie: Sidi Bennour</p>
                     <p className="">ingenierie de system informatique et technologie web</p>
                   </div>
@@ -121,6 +119,19 @@ export default function Home() {
           <div className="flex flex-wrap text-zinc-900 px-8 ">
             <div className="basis-2/4">
                 <div className="px-3 py-2">
+                  <p className="font-bold text-violet-800">2025 Projet De Stage</p>
+                  <p className="font-bold ps-3">E-raccordement, site pour les demande de raccordement electrique au france</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>NextJS 15 - Laravel - Mysql - Oracle VPS - tailwind CSS</p>
+                </div>
+                <Divider/>
+                <div className="px-3 py-2">
+                  <p className="font-bold text-violet-800">2025 Projet De Stage</p>
+                  <p className="font-bold ps-3">Happyhours, app mobile et web pour les restaurants</p>
+                  <p className="ps-3"><span className="font-bold">Outils: </span>AngularJS - Ionic - Laravel - Mysql</p>
+                </div>
+            </div>
+            <div className="basis-2/4">
+                <div className="px-3 py-2">
                   <p className="font-bold text-violet-800">2025 Projet personnel</p>
                   <p className="font-bold ps-3">Site de L'échec online</p>
                   <p className="ps-3"><span className="font-bold">Outils: </span>Elixir - Phoenix Framework - PostgreSQL - Git</p>
@@ -175,7 +186,7 @@ export default function Home() {
             <p className="text-4xl font-bold bg-gradient-to-b from-zinc-700 to-zinc-900 inline-block text-transparent bg-clip-text">Loisir</p>
           </div>
           <div className="flex flex-col gap-4 px-8 text-zinc-900">
-            <p className="font-bold text-xl">- jouer de la flûte</p>
+            <p className="font-bold text-xl">- flûtiste</p>
             <p className="font-bold text-xl">- jouer aux échecs</p>
             <p className="font-bold text-xl">- Le dessin</p>
             <p className="font-bold text-xl">- Lecture des livres historique</p>
